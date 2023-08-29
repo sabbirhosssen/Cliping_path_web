@@ -1,6 +1,6 @@
 // import React from 'react';
 
-const ClipPricing = () => {
+const EcommercePricing = () => {
   const pricingimg =
     "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/price-img.png";
   return (
@@ -18,7 +18,7 @@ const ClipPricing = () => {
                 </header>
                 <div className="text-gray-600 text-sm font-sans my-2">
                   Our service comes with the best deals within an affordable
-                  clipping path price. See our pricing to place an order!{" "}
+                  price. See our pricing to place an order!{" "}
                   <span className="text-blue-600 text-xs font-serif font-bold hover:text-[#ff8a00]">
                     See our pricing
                   </span>{" "}
@@ -46,4 +46,4 @@ const ClipPricing = () => {
   );
 };
 
-export default ClipPricing;
+export default EcommercePricing;

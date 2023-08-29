@@ -12,7 +12,7 @@ const ClipAllWork = () => {
   const img5 =
     "https://clippingpathgraphics.com/wp-content/uploads/2021/12/IMG_20210908_122451-1.jpg";
   const img6 =
-    "https://clippingpathgraphics.com/wp-content/uploads/2021/12/IMG_20210908_122451-1.jpg";
+    "https://clippingpathgraphics.com/wp-content/uploads/2021/12/PE_7750243057431_1-1.jpg";
   const img7 =
     "https://clippingpathgraphics.com/wp-content/uploads/2021/11/Foto-03.06.21_-09-21-44-1.jpg";
   const img8 =
