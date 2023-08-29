@@ -1,8 +1,8 @@
 // import React from 'react';
 
-import EcommerceFaqAccording from "./EcommerceFaqAccording";
+import GhostFaqAccording from "./GhostFaqAccording";
 
-const EcommerceFaq = () => {
+const GhostFaq = () => {
   const faqimg =
     "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/faq.svg";
   return (
@@ -25,7 +25,7 @@ const EcommerceFaq = () => {
             </div>
             <div className="md:w-8/12 bg-none">
               <div className=" bg-white ">
-                <EcommerceFaqAccording />
+                <GhostFaqAccording />
               </div>
             </div>
           </div>
@@ -35,4 +35,4 @@ const EcommerceFaq = () => {
   );
 };
 
-export default EcommerceFaq;
+export default GhostFaq;

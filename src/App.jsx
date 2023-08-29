@@ -1,6 +1,5 @@
 // import BackgroundRemoval from "./Components/Services/BackgroundRemoval/BackgroundRemoval";
-import ClipingPath from "./Components/Services/ClipingPath/ClipingPath";
-import Ecommerce from "./Components/Services/Ecommerce/Ecommerce";
+import Ghost from "./Components/Services/Ghost/Ghost";
 // import ImageShadow from "./Components/Services/ImageShadow/ImageShadow";
 import Contact from "./Components/pages/Contact";
 import Freetrial from "./Components/pages/Freetrial/Freetrial";
@@ -9,14 +8,20 @@ function App() {
   return (
     <>
       <div>
-        <header className="text-center">Ecommerce </header>
-        <Ecommerce />
-        <header className="text-center">Ecommerce End</header>
+        <header className="text-center">Ghost </header>
+
+        <header className="text-center">Ghost End</header>
         <Freetrial />
         <Contact />
-        <header className="text-center">Clipingpath removal</header>
+        <header className="text-center">Ghost </header>
+        <Ghost />
+        <header className="text-center">Ghost End</header>
+        {/* <header className="text-center">Ecommerce </header>
+        <Ecommerce />
+        <header className="text-center">Ecommerce End</header> */}
+        {/* <header className="text-center">Clipingpath removal</header>
         <ClipingPath />
-        <header className="text-center">Clipingpath removal End</header>
+        <header className="text-center">Clipingpath removal End</header> */}
 
         {/* <header className="text-center">Backgroound removal</header>
         <BackgroundRemoval />
