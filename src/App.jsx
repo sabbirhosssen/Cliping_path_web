@@ -1,5 +1,6 @@
 // import BackgroundRemoval from "./Components/Services/BackgroundRemoval/BackgroundRemoval";
 import Ghost from "./Components/Services/Ghost/Ghost";
+import ImageMask from "./Components/Services/ImageMask/ImageMask";
 // import ImageShadow from "./Components/Services/ImageShadow/ImageShadow";
 import Contact from "./Components/pages/Contact";
 import Freetrial from "./Components/pages/Freetrial/Freetrial";
@@ -8,9 +9,9 @@ function App() {
   return (
     <>
       <div>
-        <header className="text-center">Ghost </header>
-
-        <header className="text-center">Ghost End</header>
+        <header className="text-center">ImageMask </header>
+        <ImageMask />
+        <header className="text-center">ImageMask End</header>
         <Freetrial />
         <Contact />
         <header className="text-center">Ghost </header>
