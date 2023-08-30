@@ -1,12 +1,10 @@
 import { useState } from "react";
+import paper_upload from "./../../Images/PageImage/Freetrial/paper-upload.png";
 
 const AttachmentInput = () => {
   const [selectedOption, setSelectedOption] = useState("fileinput");
   const [file, setFile] = useState(null);
   const [attachmentLink, setAttachmentLink] = useState("");
-
-  const img1 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/11/paper-upload.png";
 
   const handleOptionChange = (option) => {
     setSelectedOption(option);
@@ -52,7 +50,7 @@ const AttachmentInput = () => {
               </label>
 
               <div className="flex justify-center items-center w-full border border-[#8a95a7] border-dotted my-3 p-8 rounded-xl gap-3">
-                <img src={img1} alt="" />
+                <img src={paper_upload} alt="" />
                 <div className="sfh">
                   <div className="my-2 text-sm font-medium">
                     Drop files here or
