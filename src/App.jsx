@@ -1,5 +1,5 @@
 import BackgroundRemoval from "./Components/Services/BackgroundRemoval/BackgroundRemoval";
-// import CarImage from "./Components/Services/CarImage/CarImage";
+import CarImage from "./Components/Services/CarImage/CarImage";
 import ClipingPath from "./Components/Services/ClipingPath/ClipingPath";
 import Ecommerce from "./Components/Services/Ecommerce/Ecommerce";
 // import Ghost from "./Components/Services/Ghost/Ghost";
@@ -42,10 +42,10 @@ function App() {
         <header className="text-center">ImageShadow End</header>
         <header className="text-center">Retouching </header>
         <Retouching />
-        <header className="text-center">Retouching End</header>
+        <header className="text-center">Retouching End</header>*/}
         <header className="text-center">CarImage </header>
         <CarImage />
-        <header className="text-center">CarImage End</header> */}
+        <header className="text-center">CarImage End</header>
         <header className="text-center">Services Page End</header>
       </div>
     </>

@@ -2,12 +2,12 @@
 
 import CarImageAboutSay from "./CarImageAboutSay/CarImageAboutSay";
 import CarImageAllWork from "./CarImageAllWork/CarImageAllWork";
-import CarImageFaq from "./CarImageFaq/CarImageFaq";
 import CarImageFeatures from "./CarImageFeatures/CarImageFeatures";
 import CarImageGet from "./CarImageGet/CarImageGet";
 import CarImageHeader from "./CarImageHeader/CarImageHeader";
-import CarImagePricing from "./CarImagePricing/CarImagePricing";
 import CarImageQuote from "./CarImageQuote/CarImageQuote";
+import CarImageS_layout from "./CarImageService/CarImageS_layout";
+import CarImageService from "./CarImageService/CarImageService";
 import CarImageWeWork from "./CarImageWeWork/CarImageWeWork";
 
 const CarImage = () => {
@@ -20,8 +20,8 @@ const CarImage = () => {
       <CarImageGet />
       <CarImageWeWork />
       <CarImageFeatures />
-      <CarImagePricing />
-      <CarImageFaq />
+      <CarImageService />
+      <CarImageS_layout />
     </div>
   );
 };

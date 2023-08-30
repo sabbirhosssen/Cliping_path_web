@@ -1,22 +1,18 @@
-// import React from 'react';
-
+import logoimage from "./../../../Images/ServiceImage/Global/Global_trustpilot.png";
+import about_bg from "./../../../Images/ServiceImage/Global/about_bg.png";
+import starlogo from "./../../../Images/ServiceImage/Global/rating.png";
 const CarImageAboutSay = () => {
-  const starlogo =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/rating.svg";
-  const logoimage =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/trustpilot.png";
   return (
     <div>
-      <div className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg')] ">
+      <div
+        className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb]  "
+        style={{ backgroundImage: `url(${about_bg})` }}
+      >
         <div className="hs">
           <div className="text-center my-3">
             <header className="md:text-3xl text-2xl font-bold ">
               What Our Clients Have to Say About Us
             </header>
-            <div className=" text-sm text-gray-600">
-              We take our customer reviews seriously and always look for areas
-              of growth. See what our clients said about our service.
-            </div>
           </div>
           <div className="flex justify-center items-center">
             <img src={logoimage} className="w-[100px] md:w-auto" alt="" />
@@ -29,44 +25,43 @@ const CarImageAboutSay = () => {
         <div className="my-8 md:grid md:grid-cols-3 md:gap-4">
           <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
             <img src={starlogo} className="mb-3" alt="" />
+            <header className="text-sm text-mono my-2">
+              I found the ideal Retreat
+            </header>
             <div className=" text-xs text-gray-600">
-              “Ghost mannequin editing is pretty difficult. I’ve already had a
-              bad experience with another company. So I wasn’t sure whether
-              Clipping Path Graphics could do a good job or not. But, they
-              turned out to be true to their words and impressed me with amazing
-              ghost mannequin editing service.”
+              CPG is an excellent photo editing company for the prompt delivery!
+              I have been taking their service for a long time, and they have
+              never given any chance to complain.{" '' "}
             </div>
             <header className=" font-semibold text-md my-3">
-              Barbara T Moore
+              Lena D Barnwell
             </header>
           </div>
-          <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
+          <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
             <img src={starlogo} className="mb-3" alt="" />
+            <header className="text-sm text-mono my-2">Amazing Platform</header>
             <div className=" text-xs text-gray-600">
-              “Clipping Path Graphics has the best designers who know ghost
-              mannequin photo editing better than others. My online fashion
-              store has more customers than ever after I edited my photos by
-              Clipping Path Graphics. The ghost mannequin photography service
-              they provided made the dresses look more fashionable than ever!”
+              For my e-commerce site, Clipping Path Graphics is always the go-to
+              image editing company for me. They make my photos better, and they
+              always deliver on time.{" '' "}
             </div>
             <header className=" font-semibold text-md my-3">
-              Robert M Betz
+              Deana D Baker
             </header>
           </div>
-          <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mt-3 mb-2" alt="" />
-
+          <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
+            <img src={starlogo} className="mb-3" alt="" />
+            <header className="text-sm text-mono my-2">
+              As an older customer
+            </header>
             <div className=" text-xs text-gray-600">
-              “I own an online fashion store and was looking for a good company
-              for ghost mannequin photo editing service. My business was booming
-              recently, and I had to upload around 2000-2500 images per day. So,
-              I had to outsource ghost mannequin image editing services to
-              Clipping Path Graphics. They are quite efficient in on-time
-              deliveries and maintaining quality in their work. Looking forward
-              to a long-term business!”
+              I needed to add product shadow and reflection on my photos for an
+              Amazon affiliate site. As I did not have much budget for this, I
+              was a bit skeptical. But, clipping path graphics provided me the
+              best deals I with high-quality service.{" '' "}
             </div>
             <header className=" font-semibold text-md my-3">
-              Rosa F Peters
+              Richard M Cox
             </header>
           </div>
         </div>
