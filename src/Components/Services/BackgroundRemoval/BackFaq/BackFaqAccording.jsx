@@ -28,7 +28,6 @@ const BackFaqAccording = () => {
       answer:
         "We’re ready to make as many edits as you need to make sure you’re satisfied with the work.",
     },
-    // Add more questions and answers here
   ];
   return (
     <div>

@@ -1,12 +1,13 @@
-// import React from 'react';
-
+import pricingimg from "./../../../Images/ServiceImage/Global/price-img.png";
+import price_bg from "./../../../Images/ServiceImage/Global/price_bg.png";
 const BackPricing = () => {
-  const pricingimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/price-img.png";
   return (
     <div>
       <div className="md:px-32 px-12 md:pb-16 md:pt-6 bg-[#f5f6fb] ">
-        <div className="rounded-lg bg-white md:bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/price-bg.svg')] bg-no-repeat bg-center bg-contain px-16 py-8 ">
+        <div
+          className="rounded-lg bg-white  bg-no-repeat  bg-top  px-16 py-8 "
+          style={{ backgroundImage: `url(${price_bg})` }}
+        >
           <div className="md:flex md:justify-center md:items-center gap-5">
             <div className="md:w-8/12 md:flex md:justify-start md:items-start md:ps-4 md:gap-3">
               <div className="js">

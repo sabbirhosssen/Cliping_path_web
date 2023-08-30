@@ -1,8 +1,6 @@
-// import React from 'react';
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
 
 const BackgroundGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12  md:py-16 py-12">
@@ -29,21 +27,21 @@ const BackgroundGet = () => {
           <div className="md:mt-16 my-5 md:grid md:grid-cols-3 md:gap-5">
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Digital Art Technique</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
                 Removing the background from a picture is more challenging than
                 it sounds. If only using an automated tool would suffice, you
                 wouldn’t be here looking for a photo cutout company. Our expert
-                designers study the content first, and then decide how it should
-                be done by taking tailored measures for each picture.
+                list_iconers study the content first, and then decide how it
+                should be done by taking tailored measures for each picture.
               </div>
             </div>
 
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Contrast and Color Modification
                 </header>
@@ -51,7 +49,7 @@ const BackgroundGet = () => {
               <div className="text-xs py-3 text-gray-600">
                 When the background is renounced from any picture, the remaining
                 object sometimes loses contrast or color optimization. While
-                it’s not the designer’s fault since it’s an automated system,
+                it’s not the list_iconer’s fault since it’s an automated system,
                 our passionate editors will execute further modifications to the
                 picture to make sure that the loss of contrast or color is
                 optimized.
@@ -59,7 +57,7 @@ const BackgroundGet = () => {
             </div>
             <div className=" md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Transparent Background</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -78,35 +76,35 @@ const BackgroundGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
+                  <img src={list_icon} alt="" />
                   <header className=" text-md">
                     Professional Product Cutout
                   </header>
                 </div>
                 <div className="text-xs py-3 text-gray-600">
                   We’re not just another photo editing service with a team of
-                  newbies. Our designers have expertise in product image cutout
-                  service dedicated to Amazon, eBay, or any other eCommerce
-                  sites.
+                  newbies. Our list_iconers have expertise in product image
+                  cutout service dedicated to Amazon, eBay, or any other
+                  eCommerce sites.
                 </div>
               </div>
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Pen Tool Clipping</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
                 If you’ve got even a bit of idea about photo editing, you should
                 know that using the pen tool for clipping requires skill and
-                patience. Many designers often use erasers or magic wand just to
-                erase the background. But, experts know that only the pen tool
-                clipping provides the best quality.
+                patience. Many list_iconers often use erasers or magic wand just
+                to erase the background. But, experts know that only the pen
+                tool clipping provides the best quality.
               </div>
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Adaptive Editing Technique</header>
               </div>
               <div className="text-xs py-3 text-gray-600">

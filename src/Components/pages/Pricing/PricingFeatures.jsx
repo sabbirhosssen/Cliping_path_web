@@ -48,7 +48,7 @@ const PricingFeatures = () => {
             Payment Method
           </header>
 
-          <img src={paypal} alt="" className="w-full mt-6 h-fit" />
+          <img src={paypal} alt="" className="w-auto md:w-full mt-6 h-fit" />
         </div>
       </div>
     </div>
