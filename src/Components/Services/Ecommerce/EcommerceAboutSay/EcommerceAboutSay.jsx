@@ -1,13 +1,13 @@
-// import React from 'react';
-
+import logoimage from "./../../../Images/ServiceImage/Global/Global_trustpilot.png";
+import about_bg from "./../../../Images/ServiceImage/Global/about_bg.png";
+import starlogo from "./../../../Images/ServiceImage/Global/rating.png";
 const EcommerceAboutSay = () => {
-  const starlogo =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/rating.svg";
-  const logoimage =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/trustpilot.png";
   return (
     <div>
-      <div className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg')] ">
+      <div
+        className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb]  "
+        style={{ backgroundImage: `url(${about_bg})` }}
+      >
         <div className="hs">
           <div className="text-center my-3">
             <header className="md:text-3xl text-2xl font-bold ">

@@ -1,10 +1,7 @@
-// import React from 'react';
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
+import tableimg from "./../../../Images/ServiceImage/Global/work.png";
 
 const EcommerceProductService = () => {
-  const tableimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/work.png";
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12 md:py-16  bg-[#f5f6fb] flex flex-col-reverse md:flex md:flex-row gap-5">
@@ -21,7 +18,7 @@ const EcommerceProductService = () => {
             <div className=" text-left ">
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="inline font-semibold text-gray-600">
                   First, the assigned graphics designer draws a line around the
@@ -30,7 +27,7 @@ const EcommerceProductService = () => {
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   Then, the inner portion is marked, which will stay, and the
@@ -39,7 +36,7 @@ const EcommerceProductService = () => {
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   After removing the outer part, the inner portion is now ready
@@ -48,7 +45,7 @@ const EcommerceProductService = () => {
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   For images with too many hard edges, we use image masking
@@ -57,7 +54,7 @@ const EcommerceProductService = () => {
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   To fix the loss of quality due to editing, our expert designer

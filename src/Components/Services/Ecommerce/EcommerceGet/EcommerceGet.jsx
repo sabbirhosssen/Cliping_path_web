@@ -1,8 +1,5 @@
-// import React from 'react';
-
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
 const EcommerceGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12  md:py-16 py-12">
@@ -29,7 +26,7 @@ const EcommerceGet = () => {
           <div className="md:mt-16 my-5 md:grid md:grid-cols-3 md:gap-5">
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Natural Shadow</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -43,7 +40,7 @@ const EcommerceGet = () => {
 
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Manual Editing</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -62,7 +59,7 @@ const EcommerceGet = () => {
             </div>
             <div className=" md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Exact Pen Tool and Smooth Anchor
                 </header>
@@ -82,7 +79,7 @@ const EcommerceGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
+                  <img src={list_icon} alt="" />
                   <header className=" text-md">
                     Highly Skilled Employees and Fast Delivery
                   </header>
@@ -99,7 +96,7 @@ const EcommerceGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Digital Art Technique for eCommerce Retouching
                 </header>

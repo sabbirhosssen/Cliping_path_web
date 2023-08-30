@@ -1,13 +1,13 @@
-// import React from 'react';
-
+import feature_img from "./../../../Images/ServiceImage/Ecommerce/ecommerce-features.png";
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
+import feature_bg from "./../../../Images/ServiceImage/Global/feture-bg.png";
 const EcommerceFeatures = () => {
-  const feature_shadaw =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/ecommerce-product-photo-editing.jpg";
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/orange-icon.svg";
   return (
     <div>
-      <div className="md:px-28 px-12 py-16 min-h-max text-white bg-no-repeat bg-center bg-[#1e2b58] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/feture-bg.png')] ">
+      <div
+        className="md:px-28 px-12 py-16 min-h-max text-white bg-no-repeat bg-center bg-[#1e2b58]"
+        style={{ backgroundImage: `url(${feature_bg})` }}
+      >
         <div className="md:grid   md:grid-cols-3 md:gap-2  ">
           <div className="">
             <header className=" font-sans font-bold text-2xl md:text-3xl text-start mb-3">
@@ -26,7 +26,7 @@ const EcommerceFeatures = () => {
           <div className=" text-left md:my-0 my-16 ">
             <div className="flex justify-start items-baseline">
               <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
+                <img src={list_icon} alt="" srcSet="" />
               </div>
               <div className="inline font-semibold mb-2">
                 Product Shadow Service
@@ -34,7 +34,7 @@ const EcommerceFeatures = () => {
             </div>
             <div className="flex justify-start items-center">
               <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
+                <img src={list_icon} alt="" srcSet="" />
               </div>
               <div className="font-semibold mb-2">
                 Realistic and Natural Shadow
@@ -42,33 +42,33 @@ const EcommerceFeatures = () => {
             </div>
             <div className="flex justify-start items-center">
               <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
+                <img src={list_icon} alt="" srcSet="" />
               </div>
               <div className="font-semibold mb-2">Masking Background</div>
             </div>
 
             <div className="flex justify-start items-center">
               <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
+                <img src={list_icon} alt="" srcSet="" />
               </div>
               <div className="font-semibold mb-2">Drop Shadow</div>
             </div>
             <div className="flex justify-start items-center">
               <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
+                <img src={list_icon} alt="" srcSet="" />
               </div>
               <div className="font-semibold mb-2">Reflection Shadow</div>
             </div>
             <div className="flex justify-start items-center">
               <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
+                <img src={list_icon} alt="" srcSet="" />
               </div>
               <div className="font-semibold mb-2">Manual Clipping</div>
             </div>
           </div>
           <div className="  ">
             <img
-              src={feature_shadaw}
+              src={feature_img}
               className="w-auto h-full rounded-bl-2xl rounded-tr-2xl"
               alt=""
               sizes=""

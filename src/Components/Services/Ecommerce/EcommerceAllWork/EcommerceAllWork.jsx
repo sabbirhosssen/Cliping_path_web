@@ -1,38 +1,22 @@
-// import React from 'react';
+import E_all1 from "./../../../Images/ServiceImage/Ecommerce/E-all1.png";
+import E_all1_b from "./../../../Images/ServiceImage/Ecommerce/E-all1_b.png";
+import E_all2 from "./../../../Images/ServiceImage/Ecommerce/E-all2.png";
+import E_all2_b from "./../../../Images/ServiceImage/Ecommerce/E-all2_b.png";
+import E_all3 from "./../../../Images/ServiceImage/Ecommerce/E-all3.png";
+import E_all3_b from "./../../../Images/ServiceImage/Ecommerce/E-all3_b.png";
+import E_all4 from "./../../../Images/ServiceImage/Ecommerce/E-all4.png";
+import E_all4_b from "./../../../Images/ServiceImage/Ecommerce/E-all4_b.png";
+import E_all5 from "./../../../Images/ServiceImage/Ecommerce/E-all5.png";
+import E_all5_b from "./../../../Images/ServiceImage/Ecommerce/E-all5_b.png";
+import E_all6 from "./../../../Images/ServiceImage/Ecommerce/E-all6.png";
+import E_all6_B from "./../../../Images/ServiceImage/Ecommerce/E-all6_B.png";
+import E_all7 from "./../../../Images/ServiceImage/Ecommerce/E-all7.png";
+import E_all7_B from "./../../../Images/ServiceImage/Ecommerce/E-all7_b.png";
+import E_all8 from "./../../../Images/ServiceImage/Ecommerce/E-all8.png";
+import E_all8_B from "./../../../Images/ServiceImage/Ecommerce/E-all8_b.png";
 
 const EcommerceAllWork = () => {
-  const img1_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/ONEILL-UNITLOWNUBUCKBLACK_2.jpg";
-  const img1 =
-    "https://clippingpathgraphics.com/wp-content/uploads/2021/12/ONEILL-UNITLOWNUBUCKBLACK_3.jpg";
-  const img2_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/IMG_0178.jpg";
-  const img2 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/IMG_0177.jpg";
-  const img3_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/20210722_123920-3.jpg";
-  const img3 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/20210722_123920-3-1.jpg";
-  const img4_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/Foto-26.05.21-10-56-42.jpg";
-  const img4 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/Foto-26.05.21-10-56-43.jpg";
-  const img5_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/DSC_0553.jpg";
-  const img5 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/DSC_0554.jpg";
-  const img6_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/photo-cropping-1.jpg";
-  const img6 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/photo-cropping-after-1.jpg";
-  const img7_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/01.-Before.jpg";
-  const img7 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/01.-After.jpg";
-  const img8_h =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/DSC05717.jpg";
-  const img8 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/10/DSC05717-1.jpg";
+  //
   return (
     <div>
       <div className="md:px-32 px-12  md:pb-16 pb-12  bg-[#f5f6fb]">
@@ -47,96 +31,96 @@ const EcommerceAllWork = () => {
         <div className=" md:grid md:grid-cols-4 md:gap-4 md:py-6">
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img1_h}
+              src={E_all1_b}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img1}
+              src={E_all1}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img2_h}
+              src={E_all2_b}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img2}
+              src={E_all2}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img3_h}
+              src={E_all3_b}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img3}
+              src={E_all3}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img4_h}
+              src={E_all4_b}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img4}
+              src={E_all4}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img5_h}
+              src={E_all5_b}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img5}
+              src={E_all5}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img6_h}
+              src={E_all6_B}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img6}
+              src={E_all6}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img7_h}
+              src={E_all7_B}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img7}
+              src={E_all7}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
           </div>
           <div className=" relative overflow-hidden cursor-pointer">
             <img
-              src={img8_h}
+              src={E_all8_B}
               className="w-full   md:w-auto md:my-0 my-5 hover:bg-yellow-500 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
             <img
-              src={img8}
+              src={E_all8}
               className=" hover:hidden  absolute inset-0  w-full md:w-auto md:my-0 my-5 rounded-tr-3xl rounded-bl-3xl border border-gray-300"
               alt="iamge1"
             />
