@@ -1,6 +1,19 @@
-// import React from 'react';
-
 import { useState } from "react";
+import clip_fs1 from "./../../../Images/ServiceImage/ClipingPath/clip_fs1.png";
+import clip_fs10 from "./../../../Images/ServiceImage/ClipingPath/clip_fs10.png";
+import clip_fs11 from "./../../../Images/ServiceImage/ClipingPath/clip_fs11.png";
+import clip_fs12 from "./../../../Images/ServiceImage/ClipingPath/clip_fs12.png";
+import clip_fs13 from "./../../../Images/ServiceImage/ClipingPath/clip_fs13.png";
+import clip_fs14 from "./../../../Images/ServiceImage/ClipingPath/clip_fs14.png";
+import clip_fs15 from "./../../../Images/ServiceImage/ClipingPath/clip_fs15.png";
+import clip_fs2 from "./../../../Images/ServiceImage/ClipingPath/clip_fs2.png";
+import clip_fs3 from "./../../../Images/ServiceImage/ClipingPath/clip_fs3.png";
+import clip_fs4 from "./../../../Images/ServiceImage/ClipingPath/clip_fs4.png";
+import clip_fs5 from "./../../../Images/ServiceImage/ClipingPath/clip_fs5.png";
+import clip_fs6 from "./../../../Images/ServiceImage/ClipingPath/clip_fs6.png";
+import clip_fs7 from "./../../../Images/ServiceImage/ClipingPath/clip_fs7.png";
+import clip_fs8 from "./../../../Images/ServiceImage/ClipingPath/clip_fs8.png";
+import clip_fs9 from "./../../../Images/ServiceImage/ClipingPath/clip_fs9.png";
 
 const ClipFaqService = () => {
   const [activeIndex, setActiveIndex] = useState(null);
@@ -16,43 +29,14 @@ const ClipFaqService = () => {
     },
     // Add more questions and answers here
   ];
-  const img1 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-1.jpg";
-  const img2 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-2.jpg";
-  const img3 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-3.jpg";
-  const img4 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-4.jpg";
-  const img5 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-5.jpg";
-  const img6 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-6.jpg";
-  const img7 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-7.jpg";
-  const img8 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-8.jpg";
-  const img9 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-9.jpg";
-  const img10 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-10.jpg";
-  const img11 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-11.jpg";
-  const img12 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-12.jpg";
-  const img13 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-13.jpg";
-  const img14 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-14.jpg";
-  const img15 =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/charge/charge-15.jpg";
+
   return (
     <div>
       <div className="md:px-32 px-12 lg:py-16  ">
         {faqData.map((item, index) => (
           <div key={index} className="border rounded-md mb-4">
             <button
-              className="w-full p-4 text-sm md:text-2xl font-bold flex justify-between gap-2 items-start hover:text-[#ff8a00] focus:text-[#ff8a00] border-b-2"
+              className="w-full p-4 text-md md:text-2xl font-bold flex justify-between gap-2 items-start hover:text-[#ff8a00] focus:text-[#ff8a00] border-b-2"
               onClick={() => toggleAccordion(index)}
             >
               {item.question}{" "}
@@ -90,9 +74,9 @@ const ClipFaqService = () => {
                   </div>
                   <div className=" lg:w-6/12 md:my-0 my-3">
                     <div className="w-full flex  justify-center items-center gap-1">
-                      <img src={img1} className="w-20  md:w-28 " alt="" />
-                      <img src={img2} className="w-20  md:w-28 " alt="" />
-                      <img src={img3} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs1} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs2} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs3} className="w-20  md:w-28 " alt="" />
                     </div>
                   </div>
                 </dev>
@@ -120,9 +104,9 @@ const ClipFaqService = () => {
                   </div>
                   <div className=" lg:w-6/12 md:my-0 my-3">
                     <div className="w-full flex  justify-center items-center gap-1">
-                      <img src={img4} className="w-20  md:w-28 " alt="" />
-                      <img src={img5} className="w-20  md:w-28 " alt="" />
-                      <img src={img6} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs4} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs5} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs6} className="w-20  md:w-28 " alt="" />
                     </div>
                   </div>
                 </dev>
@@ -150,9 +134,9 @@ const ClipFaqService = () => {
                   </div>
                   <div className=" lg:w-6/12 md:my-0 my-3">
                     <div className="w-full flex  justify-center items-center gap-1">
-                      <img src={img7} className="w-20  md:w-28 " alt="" />
-                      <img src={img8} className="w-20  md:w-28 " alt="" />
-                      <img src={img9} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs7} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs8} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs9} className="w-20  md:w-28 " alt="" />
                     </div>
                   </div>
                 </dev>
@@ -181,9 +165,9 @@ const ClipFaqService = () => {
                   </div>
                   <div className=" lg:w-6/12 md:my-0 my-3">
                     <div className="w-full flex  justify-center items-center gap-1">
-                      <img src={img10} className="w-20  md:w-28 " alt="" />
-                      <img src={img11} className="w-20  md:w-28 " alt="" />
-                      <img src={img12} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs10} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs11} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs12} className="w-20  md:w-28 " alt="" />
                     </div>
                   </div>
                 </dev>
@@ -211,9 +195,9 @@ const ClipFaqService = () => {
                   </div>
                   <div className=" lg:w-6/12 md:my-0 my-3">
                     <div className="w-full flex  justify-center items-center gap-1">
-                      <img src={img13} className="w-20  md:w-28 " alt="" />
-                      <img src={img14} className="w-20  md:w-28 " alt="" />
-                      <img src={img15} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs13} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs14} className="w-20  md:w-28 " alt="" />
+                      <img src={clip_fs15} className="w-20  md:w-28 " alt="" />
                     </div>
                   </div>
                 </dev>

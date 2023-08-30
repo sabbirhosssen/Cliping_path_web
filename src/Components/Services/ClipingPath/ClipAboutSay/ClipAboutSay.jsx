@@ -1,13 +1,13 @@
-// import React from 'react';
-
+import trustpilot from "./../../../Images/ServiceImage/Global/Global_trustpilot.png";
+import about_bg from "./../../../Images/ServiceImage/Global/about_bg.png";
+import rating from "./../../../Images/ServiceImage/Global/rating.png";
 const ClipAboutSay = () => {
-  const starlogo =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/rating.svg";
-  const logoimage =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/trustpilot.png";
   return (
     <div>
-      <div className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg')] ">
+      <div
+        className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb]  "
+        style={{ backgroundImage: `url(${about_bg})` }}
+      >
         <div className="hs">
           <div className="text-center my-3">
             <header className="md:text-3xl text-2xl font-bold ">
@@ -19,7 +19,7 @@ const ClipAboutSay = () => {
             </div> */}
           </div>
           <div className="flex justify-center items-center">
-            <img src={logoimage} className="w-[100px] md:w-auto" alt="" />
+            <img src={trustpilot} className="w-[100px] md:w-auto" alt="" />
             <div className=" hover:text-[#ff8a00] hover:border-e-[#ff8a00] md:text-lg text-sm  font-semibold text-green-600 px-2 border-e-4 me-2  border-e-green-600">
               TrustScore 4.8
             </div>
@@ -28,7 +28,7 @@ const ClipAboutSay = () => {
         </div>
         <div className="my-8 md:grid md:grid-cols-3 md:gap-4">
           <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mb-3" alt="" />
+            <img src={rating} className="mb-3" alt="" />
             <header className="text-sm font-thin my-2 text-gray-600">
               I found the ideal Retreat
             </header>
@@ -42,7 +42,7 @@ const ClipAboutSay = () => {
             </header>
           </div>
           <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mb-3" alt="" />
+            <img src={rating} className="mb-3" alt="" />
             <header className="text-sm font-thin my-2 text-gray-600">
               Amazing Platform
             </header>
@@ -56,7 +56,7 @@ const ClipAboutSay = () => {
             </header>
           </div>
           <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mt-3 mb-2" alt="" />
+            <img src={rating} className="mt-3 mb-2" alt="" />
             <header className=" font-thin mb-2 text-md">
               As an older customer
             </header>

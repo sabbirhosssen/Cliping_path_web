@@ -1,8 +1,5 @@
-// import React from 'react';
-
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
 const ClipGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12  md:py-16 py-12">
@@ -28,7 +25,7 @@ const ClipGet = () => {
           <div className="md:mt-16 my-5 md:grid md:grid-cols-3 md:gap-5">
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Photo Color Correction</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -42,7 +39,7 @@ const ClipGet = () => {
 
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Smooth Anchor Pointing</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -54,7 +51,7 @@ const ClipGet = () => {
             </div>
             <div className=" md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Sharp Corner Edges</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -69,7 +66,7 @@ const ClipGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
+                  <img src={list_icon} alt="" />
                   <header className=" text-md">Best Cut Out Experience</header>
                 </div>
                 <div className="text-xs py-3 text-gray-600">
@@ -84,7 +81,7 @@ const ClipGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Curves and Hard Corner Cut Out
                 </header>
@@ -99,16 +96,16 @@ const ClipGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Manual Clipping Process</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
                 As already mentioned, Clipping Path Graphics doesn’t use any
                 automated tools for creating image clipping path. We’re the best
                 Photoshop clipping path service provider that relies on human
-                touch than any software. Our designers spend hours to make your
-                images better, with love! They study the pictures first and make
-                wise decisions based on the requirements.
+                touch than any software. Our list_iconers spend hours to make
+                your images better, with love! They study the pictures first and
+                make wise decisions based on the requirements.
               </div>
             </div>
           </div>
@@ -116,7 +113,7 @@ const ClipGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
+                  <img src={list_icon} alt="" />
                   <header className=" text-md">
                     Fast Delivery and High Quality
                   </header>
@@ -124,7 +121,7 @@ const ClipGet = () => {
                 <div className="text-xs py-3 text-gray-600">
                   Quality work takes time. Automated tools might save you from
                   running late, but the quality won’t be consistent. Still, our
-                  team of expert designers is always ready to deliver you
+                  team of expert list_iconers is always ready to deliver you
                   top-notch and fast service. If you need something delivered
                   urgently, we can get on that without compromising the quality.
                 </div>
@@ -132,7 +129,7 @@ const ClipGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Image Masking in Extreme Cases
                 </header>
@@ -146,15 +143,15 @@ const ClipGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
-                  Team of Professional and Expert Designers
+                  Team of Professional and Expert list_iconers
                 </header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                Our designers are the heart of this company. They love what they
-                do, and they do it ensuring quality. Passion, dedication, and
-                professionalism – all three combined have made our team
+                Our list_iconers are the heart of this company. They love what
+                they do, and they do it ensuring quality. Passion, dedication,
+                and professionalism – all three combined have made our team
                 efficient that can meet your needs of complex clipping path in
                 no time!
               </div>

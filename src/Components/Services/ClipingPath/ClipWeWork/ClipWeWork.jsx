@@ -1,10 +1,6 @@
-// import React from 'react';
-
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
+import tableimg from "./../../../Images/ServiceImage/Global/work.png";
 const ClipWeWork = () => {
-  const tableimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/work.png";
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12 md:py-16  bg-[#f5f6fb] flex flex-col-reverse md:flex md:flex-row gap-5">
@@ -24,16 +20,16 @@ const ClipWeWork = () => {
             <div className=" text-left ">
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="inline font-semibold text-gray-600">
-                  First, the assigned graphics designer draws a line around the
-                  product.
+                  First, the assigned graphics list_iconer draws a line around
+                  the product.
                 </div>
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   Then, the inner portion is marked, which will stay, and the
@@ -42,7 +38,7 @@ const ClipWeWork = () => {
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   After removing the outer part, the inner portion is now ready
@@ -51,11 +47,12 @@ const ClipWeWork = () => {
               </div>
               <div className="flex justify-start items-baseline mb-3">
                 <div className=" pe-2 w-8">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
-                  To fix the loss of quality due to editing, our expert designer
-                  will make the necessary resizing and retouches to the image.
+                  To fix the loss of quality due to editing, our expert
+                  list_iconer will make the necessary resizing and retouches to
+                  the image.
                 </div>
               </div>
             </div>
