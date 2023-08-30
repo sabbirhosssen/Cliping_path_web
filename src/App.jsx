@@ -6,14 +6,17 @@ import Ghost from "./Components/Services/Ghost/Ghost";
 import ImageMask from "./Components/Services/ImageMask/ImageMask";
 import ImageShadow from "./Components/Services/ImageShadow/ImageShadow";
 import Retouching from "./Components/Services/Retouching/Retouching";
-import Contact from "./Components/pages/Contact";
+import Contact from "./Components/pages/Contact/Contact";
 import Freetrial from "./Components/pages/Freetrial/Freetrial";
+import Pricing from "./Components/pages/Pricing/Pricing";
 
 function App() {
   return (
     <>
       <div>
         <header className="text-center">Page </header>
+        <Pricing />
+
         <Freetrial />
         <Contact />
         <header className="text-center">Page End</header>
