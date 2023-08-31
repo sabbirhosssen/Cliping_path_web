@@ -1,10 +1,11 @@
-// import React from 'react';
-
+import shadaw_h from "./../../../Images/ServiceImage/Global/Global_Head_bg.png";
+import imageshadaw from "./../../../Images/ServiceImage/Shadow/Shadow-h1.png";
 const ImageShadaw = () => {
-  const imgaeshadaw =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/uploads/2021/12/Shadow-before-1.jpg";
   return (
-    <div className="bg-[#f5f6fb]  md:px-32 px-12 pb-16 py-6  ">
+    <div
+      className="bg-[#f5f6fb]  md:px-32 px-12 pb-16 py-6  bg-no-repeat bg-cnter"
+      style={{ backgroundImage: `(${shadaw_h})` }}
+    >
       <div className="md:flex  md:justify-center md:items-center md:gap-5">
         <div className="md:w-6/12">
           <header className="md:text-[45px] text-[40px] leading-tight mb-2 font-sans font-bold">
@@ -25,7 +26,7 @@ const ImageShadaw = () => {
           </button>
         </div>
         <div className="md:w-6/12 relative">
-          <img src={imgaeshadaw} alt="" />
+          <img src={imageshadaw} alt="" />
           <div className="bg-white md:bg-slate-50 px-4 py-4 border rounded-tr-2xl rounded-bl-2xl  md:absolute md:bottom-[-60px] md:left-[-90px] absolute bottom-[-70px] left-[-40px] ...">
             <div className="block text-left text-sm">Starting at</div>
             <div className="  md:mx-6 block text-center font-bold text-3xl text-[#ff8a00]">

@@ -1,14 +1,12 @@
-// import React from 'react';
-
+import logoimage from "./../../../Images/ServiceImage/Global/Global_trustpilot.png";
+import about_bg from "./../../../Images/ServiceImage/Global/about_bg.png";
+import rating from "./../../../Images/ServiceImage/Global/rating.png";
 const AboutSay = () => {
-  //   const bg_image =
-  //     "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg";
-  const starlogo =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/rating.svg";
-  const logoimage =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/trustpilot.png";
   return (
-    <div className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg')] ">
+    <div
+      className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] "
+      style={{ backgroundImage: `url(${about_bg})` }}
+    >
       <div className="hs">
         <div className="text-center my-3">
           <header className="md:text-3xl text-2xl font-bold ">
@@ -29,7 +27,7 @@ const AboutSay = () => {
       </div>
       <div className="my-8 md:grid md:grid-cols-3 md:gap-4">
         <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
-          <img src={starlogo} className="mb-3" alt="" />
+          <img src={rating} className="mb-3" alt="" />
           <div className=" text-xs text-gray-600">
             “I needed image shadow creation service for my eCommerce site.
             Around 500 images had to go through a drop shadow photo editing
@@ -42,7 +40,7 @@ const AboutSay = () => {
           <header className=" font-semibold text-md">Carmen L Lewis</header>
         </div>
         <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-          <img src={starlogo} className="mb-3" alt="" />
+          <img src={rating} className="mb-3" alt="" />
           <div className=" text-xs text-gray-600">
             “The editors are highly efficient at Clipping Path Graphics. They
             know their work, and they understand the natural shadow service. The
@@ -53,7 +51,7 @@ const AboutSay = () => {
           <header className=" font-semibold text-md">Rose D Gibbs</header>
         </div>
         <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-          <img src={starlogo} className="mb-3" alt="" />
+          <img src={rating} className="mb-3" alt="" />
           <div className=" text-xs text-gray-600">
             “Shadow creation or reduction is a quite complicated process. I was
             a bit skeptical at first about whether Clipping Path Graphics could

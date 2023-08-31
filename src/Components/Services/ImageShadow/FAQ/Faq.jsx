@@ -1,12 +1,12 @@
+import faq_bg from "./../../../Images/ServiceImage/Global/Faq_bg.png";
+import faqimg from "./../../../Images/ServiceImage/Global/faq_img.png";
 import FaqAccordion from "./FaqAccordion";
-
-// import React from 'react';
-
 const Faq = () => {
-  const faqimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/faq.svg";
   return (
-    <div className="md:px-32 px-12 md:py-16">
+    <div
+      className="md:px-32 px-12 md:py-16 bg-no-repeat bg-start bg-contain"
+      style={{ backgroundImage: `url(${faq_bg})` }}
+    >
       <div>
         <div className="md:text-center text-start">
           <header className="md:text-3xl text-center  text-2xl font-sans font-extrabold mb-3">

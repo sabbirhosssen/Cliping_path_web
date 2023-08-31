@@ -1,8 +1,6 @@
 // import React from 'react';
-
+import design from "./../../../Images/ServiceImage/Global/List-icon.png";
 const ServiceGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div className="md:px-32 px-12  md:py-16 py-12">
       <div className="db">

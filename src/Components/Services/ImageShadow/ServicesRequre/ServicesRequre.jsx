@@ -1,11 +1,6 @@
-// import React from 'react';
-
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
+import tableimg from "./../../../Images/ServiceImage/Global/work.png";
 const ServicesRequre = () => {
-  const tableimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/work.png";
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
-
   return (
     <div>
       <div className="md:px-32 px-12 md:py-16  bg-[#f5f6fb] flex flex-col-reverse md:flex md:flex-row ">
@@ -21,7 +16,7 @@ const ServicesRequre = () => {
             <div className=" text-left ">
               <div className="flex justify-start items-baseline mb-2">
                 <div className=" pe-2">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="inline font-semibold text-gray-600">
                   Magazine Publishers
@@ -29,7 +24,7 @@ const ServicesRequre = () => {
               </div>
               <div className="flex justify-start items-center mb-2">
                 <div className=" pe-2">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   eCommerce Retailers
@@ -37,7 +32,7 @@ const ServicesRequre = () => {
               </div>
               <div className="flex justify-start items-center mb-2">
                 <div className=" pe-2">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   Car Dealers and Retailers
@@ -45,13 +40,13 @@ const ServicesRequre = () => {
               </div>
               <div className="flex justify-start items-center mb-2">
                 <div className=" pe-2">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">Photographers</div>
               </div>
               <div className="flex justify-start items-center mb-2">
                 <div className=" pe-2">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   Amazon Store Owners
@@ -59,7 +54,7 @@ const ServicesRequre = () => {
               </div>
               <div className="flex justify-start items-center mb-2">
                 <div className=" pe-2">
-                  <img src={design} alt="" srcSet="" />
+                  <img src={list_icon} alt="" srcSet="" />
                 </div>
                 <div className="font-semibold text-gray-600">
                   Photo Studio Companies
