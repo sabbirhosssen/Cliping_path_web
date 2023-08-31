@@ -1,21 +1,22 @@
 // import React from 'react';
-
+import design from "./../../../Images/ServiceImage/Global/List-icon.png";
+import feature_bg from "./../../../Images/ServiceImage/Global/feture-bg.png";
+import feature_pic from "./../../../Images/ServiceImage/Retouch/retouch-features.png";
 const RetouchingFeatures = () => {
-  const feature_pic =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/ghost-manniquin.jpg";
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/orange-icon.svg";
   return (
     <div>
-      <div className="md:px-28 px-12 py-16 min-h-max text-white bg-no-repeat bg-center bg-[#1e2b58] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/feture-bg.png')] ">
+      <div
+        className="md:px-28 px-12 py-16 min-h-max text-white bg-no-repeat bg-center bg-[#1e2b58] "
+        style={{ backgroundImage: `url(${feature_bg})` }}
+      >
         <div className="md:grid   md:grid-cols-3 md:gap-2  ">
           <div className="">
             <header className=" font-sans font-bold text-2xl md:text-3xl text-start mb-3">
               Our Special <span className="sm:inline md:block"> Features</span>
             </header>
             <div className="text-start md:text-sm text-xs md:mt-8 mt-4 ">
-              Our skilled designers will do what it takes to offer you the most
-              professional photo editing service maintaining quality. Our
+              At Clipping Path Graphics, we go beyond our service to offer the
+              most cost-effective and professional photo touch-up service. Our
               adjustments include:
             </div>
 
@@ -29,15 +30,7 @@ const RetouchingFeatures = () => {
                 <img src={design} alt="" srcSet="" />
               </div>
               <div className="inline font-semibold mb-2">
-                Ghost Mannequin Neck Joint Services
-              </div>
-            </div>
-            <div className="flex justify-start items-baseline">
-              <div className=" pe-2">
-                <img src={design} alt="" srcSet="" />
-              </div>
-              <div className="inline font-semibold mb-2">
-                3D Ghost Mannequin
+                Clipping Path Service
               </div>
             </div>
             <div className="flex justify-start items-baseline">
@@ -48,11 +41,11 @@ const RetouchingFeatures = () => {
                 Product Shadow Service
               </div>
             </div>
-            <div className="flex justify-start items-center">
+            <div className="flex justify-start items-baseline">
               <div className=" pe-2">
                 <img src={design} alt="" srcSet="" />
               </div>
-              <div className="font-semibold mb-2">
+              <div className="inline font-semibold mb-2">
                 Color Correction and Modification
               </div>
             </div>
@@ -64,6 +57,7 @@ const RetouchingFeatures = () => {
                 Realistic and Natural Shadow
               </div>
             </div>
+
             <div className="flex justify-start items-center">
               <div className=" pe-2">
                 <img src={design} alt="" srcSet="" />
@@ -86,7 +80,7 @@ const RetouchingFeatures = () => {
               <div className=" pe-2">
                 <img src={design} alt="" srcSet="" />
               </div>
-              <div className="font-semibold mb-2">Smooth Anchoring</div>
+              <div className="font-semibold mb-2">Ghost Mannequin</div>
             </div>
           </div>
           <div className="  ">

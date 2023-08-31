@@ -5,7 +5,7 @@ import Ecommerce from "./Components/Services/Ecommerce/Ecommerce";
 import Ghost from "./Components/Services/Ghost/Ghost";
 import ImageMask from "./Components/Services/ImageMask/ImageMask";
 import ImageShadow from "./Components/Services/ImageShadow/ImageShadow";
-// import Retouching from "./Components/Services/Retouching/Retouching";
+import Retouching from "./Components/Services/Retouching/Retouching";
 import Contact from "./Components/pages/Contact/Contact";
 import Freetrial from "./Components/pages/Freetrial/Freetrial";
 import Pricing from "./Components/pages/Pricing/Pricing";
@@ -40,9 +40,9 @@ function App() {
         <header className="text-center">ImageShadow </header>
         <ImageShadow />
         <header className="text-center">ImageShadow End</header>
-        {/* <header className="text-center">Retouching </header>
+        <header className="text-center">Retouching </header>
         <Retouching />
-        <header className="text-center">Retouching End</header>*/}
+        <header className="text-center">Retouching End</header>
         <header className="text-center">CarImage </header>
         <CarImage />
         <header className="text-center">CarImage End</header>

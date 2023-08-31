@@ -1,21 +1,22 @@
-// import React from 'react';
-
+import about_bg from "./../../../Images/ServiceImage/Global/about_bg.png";
+import logoimage from "./../../../Images/ServiceImage/Global/Global_trustpilot.png";
+import starlogo from "./../../../Images/ServiceImage/Global/rating.png";
 const RetouchingAboutSay = () => {
-  const starlogo =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/rating.svg";
-  const logoimage =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/trustpilot.png";
   return (
     <div>
-      <div className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg')] ">
+      <div
+        className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb]  "
+        style={{ backgroundImage: `url(${about_bg})` }}
+      >
         <div className="hs">
           <div className="text-center my-3">
             <header className="md:text-3xl text-2xl font-bold ">
               What Our Clients Have to Say About Us
             </header>
-            <div className=" text-sm text-gray-600">
-              We take our customer reviews seriously and always look for areas
-              of growth. See what our clients have said about our service.
+            <div className=" text-sm text-gray-600 mt-3">
+              At Clipping Path Graphics, we take feedback very seriously and
+              constantly work on areas to improve. See what our clients have
+              said about our service.
             </div>
           </div>
           <div className="flex justify-center items-center">
@@ -30,43 +31,42 @@ const RetouchingAboutSay = () => {
           <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
             <img src={starlogo} className="mb-3" alt="" />
             <div className=" text-xs text-gray-600">
-              “Finding the best e-commerce product photo editing services turned
-              out to be quite challenging until I found Clipping Path Graphics.
-              They’re professional and quite serious about their work. I’m using
-              their eCommerce photo editing services for a long time now, and
-              they hardly gave me room for complaint.”
+              “I had around 1,000 photos for my eCommerce site. As I was looking
+              for the best retouching service provider, I stumbled upon Clipping
+              Path Graphics. They offered me the best price and a reasonable
+              deadline. I didn’t find any single issue with the project. Wishing
+              them all the best in their future endeavors!”
             </div>
             <header className=" font-semibold text-md my-3">
-              Dallas J McIntosh
+              Devin J Dupuy
             </header>
           </div>
           <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
             <img src={starlogo} className="mb-3" alt="" />
             <div className=" text-xs text-gray-600">
-              “Product image editing services are highly essential for any
-              eCommerce business, so was for mine. While I was looking for a
-              product photography editing service, I found the website of
-              Clipping Path Graphics. I requested a quote and tried their free
-              service. They’ve been providing product retouching services for my
-              business, and I’m quite happy with their work.”
+              “Photo retouching is tricky and requires an extensive amount of
+              work. I tried to fix some of my wedding photos and had to quit.
+              The designers at Clipping Path Graphics promised me the best
+              wedding photo retouching service, and they kept their words.
+              Really happy with their service!”
             </div>
             <header className=" font-semibold text-md my-3">
-              Evelyn T Pressley
+              Craig T Sigala
             </header>
           </div>
           <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
             <img src={starlogo} className="mt-3 mb-2" alt="" />
-            <header className=" font-thin mb-2 text-md">
-              As an older customer
-            </header>
+
             <div className=" text-xs text-gray-600">
-              “I needed Photoshop editing for eCommerce, and I barely had the
-              time to do it myself. So, Clipping Path Graphics was the knight in
-              shining armor for me. They have the best team of designers with
-              years of experience and professionalism.”
+              “I run an online fashion store, and I needed fashion photo
+              retouching services for my website. I tried Clipping Path
+              Graphics’ service for the first time and was impressed with their
+              professionalism. I gave them a tight deadline, but they delivered
+              the photos on time, maintaining quality. I highly recommend their
+              service!”
             </div>
             <header className=" font-semibold text-md my-3">
-              Gary D Fulton
+              Clifton M Miller
             </header>
           </div>
         </div>

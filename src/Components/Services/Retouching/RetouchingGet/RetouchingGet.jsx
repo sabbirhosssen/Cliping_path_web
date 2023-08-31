@@ -1,8 +1,6 @@
 // import React from 'react';
-
+import design from "./../../../Images/ServiceImage/Global/List-icon.png";
 const RetouchingGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12  md:py-16 py-12">
@@ -12,17 +10,17 @@ const RetouchingGet = () => {
               className=" md:w-5/12 md:pr-4 md:text-3xl 
            text-2xl font-bold md:my-0 my-2 "
             >
-              Why You Should Get Our Apparel Photo Editing Services
+              Why You Should Get Our Services
             </header>
             <div className="md:w-7/12 my-6 md:mb-0 mb-16">
               <div className="text-xs text-gray-600">
-                Clipping Path Graphics offers the most professional and
-                high-quality eCommerce product image editing services at a low
-                cost. We are proud of our dedication and commitment to stand out
-                among photo editing companies for eCommerce.
+                Here at Clipping Path Graphics, we provide professional and
+                high-quality service at a moderate cost to meet the needs of our
+                clients. We are proud of our professionalism and commitment that
+                helped to build our reputation.
               </div>
               <div className="underline md:font-bold font-semibold text-sm block">
-                Our eCommerce product photo editing services are equipped with:
+                Our service is equipped with:
               </div>
             </div>
           </div>
@@ -30,51 +28,44 @@ const RetouchingGet = () => {
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
                 <img src={design} alt="" />
-                <header className=" text-md">Natural Shadow</header>
+                <header className=" text-md">
+                  High-Quality Service and On-time Delivery
+                </header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                Understanding light and shadow measurement are essential when
-                <span className="text-blue-600"> adding shadow </span>
-                to a product. These are some of the qualities that only a
-                professional designer can provide. We offer the most natural
-                shadow solution available, which helps your brand stand out.
+                Our team of professional and expert designers is always at your
+                service. They are passionate about their work and highly
+                experienced. Although we only follow the manual editing process,
+                Clipping Path Graphics can offer you the fastest service
+                maintaining tight deadlines.
               </div>
             </div>
 
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
                 <img src={design} alt="" />
-                <header className=" text-md">Manual Editing</header>
+                <header className=" text-md">No Automated Tool</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                We do not use any automated photo editing techniques at Clipping
-                Path Graphics for product
-                <span className="text-blue-600">
-                  {" "}
-                  photo retouching services{" "}
-                </span>
-                . We rely on the expertise and experience of our designers.
-                Automated tools will undoubtedly save you time, but manual
-                editing is the most incredible option for ensuring the highest
-                level of quality. Our designers spend hours examining the
-                photographs and making custom selections to improve them.
+                Here at Clipping Path Graphics, we don’t use any automated tools
+                for photo retouching. We rely on our expert designers and their
+                experiences. Automated tools will surely provide you faster
+                service, but manual editing is the best option for maintaining
+                maximum quality. Our designers spend hours studying the pictures
+                and make tailored decisions to make your images better.
               </div>
             </div>
             <div className=" md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
                 <img src={design} alt="" />
-                <header className=" text-md">
-                  Exact Pen Tool and Smooth Anchor
-                </header>
+                <header className=" text-md">Realistic Natural Shadow</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                The pen tool is the most effective Photoshop tool in photo
-                editing for eCommerce. However, proper use of this technology
-                requires a high level of skill and expertise. Our professional
-                editors use the pen tool pointing method to isolate the product
-                from an image. Also, we link the curve segments where they flow
-                smoothly using a smooth anchor tool. It is essential to make
-                your photos more appealing while remaining realistic.
+                <span className="text-blue-600">Adding shadow</span>
+                to a picture requires the understanding of light and measurement
+                of the shadow. These are some of the characteristics that are
+                secured by a professional. We provide the most natural shadow
+                service, which helps your brand attract more attention.
               </div>
             </div>
           </div>
@@ -84,16 +75,14 @@ const RetouchingGet = () => {
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
                   <img src={design} alt="" />
                   <header className=" text-md">
-                    Highly Skilled Employees and Fast Delivery
+                    Highly Skilled and Experienced Designers
                   </header>
                 </div>
                 <div className="text-xs py-3 text-gray-600">
-                  Our team of experienced and knowledgeable designers is always
-                  available to assist you. They are enthusiastic about their
-                  work and have a lot of experience. Although we solely use the
-                  manual editing technique, Clipping Path Graphics can provide
-                  you with the fastest service while still meeting your
-                  deadlines.
+                  Clipping Path Graphics is equipped with a dedicated and
+                  passionate team of experienced designers. We value our
+                  employees and believe that they keep our company running. Our
+                  people love what they do, and they do it with care and love.
                 </div>
               </div>
             </div>
@@ -101,16 +90,37 @@ const RetouchingGet = () => {
               <div className="flex justify-start items-baseline gap-2 font-semibold">
                 <img src={design} alt="" />
                 <header className=" text-md">
-                  Digital Art Technique for eCommerce Retouching
+                  icon Exact Pen Tool Pointing
                 </header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                Removing the backdrop from a photograph is more complex than it
-                appears. You would not need to outsource product photo editing
-                to us if employing an automated program would suffice. Our
-                skilled designers examine the content first, and then determine
-                how it should be done by obtaining specific measurements for
-                each image.
+                In photo editing, the pen tool is the most powerful Photoshop
+                tool. However, using this tool appropriately requires a high
+                level of knowledge and skill. To isolate the object from the
+                image, our skilled editors employ the accurate pen tool pointing
+                method. The object you are preserving retains its clarity and
+                quality while using this method
+              </div>
+            </div>
+            <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
+              <div className="flex justify-start items-baseline gap-2 font-semibold">
+                <img src={design} alt="" />
+                <header className=" text-md">
+                  Sharp Corner Edges with Hard Corner Cut Out
+                </header>
+              </div>
+              <div className="text-xs py-3 text-gray-600">
+                Only fixing the color and contrast is not enough for a
+                successful photo retouching. You must pay attention to every
+                aspect of the image, including the edges. On a different
+                background, if the corners are not sharp enough, they won{"'"}t
+                look realistic. You must take care of the curves and hard
+                corners, just as you must care for the sharp edges. It will aid
+                in blending the photo with the new background. Product photo
+                quality for eCommerce or any other business is heavily reliant
+                on appropriate curvature. At Clipping Path Graphics, we care for
+                our customers, and we act through our professional retouching
+                service.
               </div>
             </div>
           </div>
