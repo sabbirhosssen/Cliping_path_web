@@ -1,13 +1,14 @@
-// import React from 'react';
-
+import quoteimg from "./../../../Images/ServiceImage/Global/lastly-Q2.png";
+import quote_bg from "./../../../Images/ServiceImage/Global/shape-bg_Qb.jpg";
 const GhostQuote = () => {
-  const quoteimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/lastly-2.png";
   return (
     <div>
       <div className="md:px-28 px-12  md:py-16 py-12 bg-[#ffffff]">
         <div>
-          <div className="md:flex md:justify-center md:items-start md:gap-5">
+          <div
+            className="md:flex md:justify-center md:items-start md:gap-5 bg-center bg-no-repet "
+            style={{ backgroundImage: `url(${quote_bg})` }}
+          >
             <div className=" md:w-5/12 ">
               <img src={quoteimg} className=" w-max" alt="" />
             </div>

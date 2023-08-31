@@ -2,7 +2,7 @@ import BackgroundRemoval from "./Components/Services/BackgroundRemoval/Backgroun
 import CarImage from "./Components/Services/CarImage/CarImage";
 import ClipingPath from "./Components/Services/ClipingPath/ClipingPath";
 import Ecommerce from "./Components/Services/Ecommerce/Ecommerce";
-// import Ghost from "./Components/Services/Ghost/Ghost";
+import Ghost from "./Components/Services/Ghost/Ghost";
 // import ImageMask from "./Components/Services/ImageMask/ImageMask";
 // import ImageShadow from "./Components/Services/ImageShadow/ImageShadow";
 // import Retouching from "./Components/Services/Retouching/Retouching";
@@ -31,10 +31,10 @@ function App() {
         <header className="text-center">Ecommerce </header>
         <Ecommerce />
         <header className="text-center">Ecommerce End</header>
-        {/* <header className="text-center">Ghost </header>
+        <header className="text-center">Ghost </header>
         <Ghost />
         <header className="text-center">Ghost End</header>
-        <header className="text-center">ImageMask </header>
+        {/*<header className="text-center">ImageMask </header>
         <ImageMask />
         <header className="text-center">ImageMask End</header>
         <header className="text-center">ImageShadow </header>

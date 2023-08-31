@@ -1,8 +1,5 @@
-// import React from 'react';
-
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
 const GhostGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12  md:py-16 py-12">
@@ -29,7 +26,7 @@ const GhostGet = () => {
           <div className="md:mt-16 my-5 md:grid md:grid-cols-3 md:gap-5">
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Exact Neck Part Joint</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -43,7 +40,7 @@ const GhostGet = () => {
 
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Smooth Anchor Pointing</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -55,7 +52,7 @@ const GhostGet = () => {
             </div>
             <div className=" md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">Exact Pen Tool Pointing</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -71,7 +68,7 @@ const GhostGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
+                  <img src={list_icon} alt="" />
                   <header className=" text-md">Manual Clipping</header>
                 </div>
                 <div className="text-xs py-3 text-gray-600">
@@ -89,7 +86,7 @@ const GhostGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md"> Sharp Corner Edges</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
@@ -102,7 +99,7 @@ const GhostGet = () => {
             </div>
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Fast Delivery and High Quality
                 </header>
@@ -123,7 +120,7 @@ const GhostGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
+                  <img src={list_icon} alt="" />
                   <header className=" text-md">
                     Team of Professional and Expert Designers
                   </header>
