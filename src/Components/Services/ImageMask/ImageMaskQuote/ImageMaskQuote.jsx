@@ -1,11 +1,12 @@
-// import React from "react";
-
+import quoteimg from "./../../../Images/ServiceImage/Global/lastly-Q2.png";
+import quote_bg from "./../../../Images/ServiceImage/Global/shape-bg_Qb.jpg";
 const ImageMaskQuote = () => {
-  const quoteimg =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/lastly-2.png";
   return (
     <div>
-      <div className="md:px-28 px-12  md:py-16 py-12 bg-[#ffffff]">
+      <div
+        className="md:px-28 px-12  md:py-16 py-12 bg-[#ffffff] bg-no-repeat bg-center"
+        style={{ backgroundImage: `url(${quote_bg})` }}
+      >
         <div>
           <div className="md:flex md:justify-center md:items-start md:gap-5">
             <div className=" md:w-5/12 ">
@@ -13,15 +14,10 @@ const ImageMaskQuote = () => {
             </div>
             <div className="py-6 md:w-6/12">
               <header className="text-2xl font-bold font-sans">
-                Avail A Free Ghost Mannequin Service by Becoming Our Client
+                Avail A Free Image Masking Service by Becoming Our Client
               </header>
               <div className="text-gray-600 text-xs my-2">
-                By becoming our client, you’re availing of a free ghost
-                mannequin effect
-                <span className="text-blue-600 font-sans font-medium">
-                  {" "}
-                  photo editing{" "}
-                </span>
+                By becoming our client, you’re availing of a free service to
                 assess our work. See if our
                 <span className="text-blue-600 font-sans font-medium">
                   {" "}
@@ -34,8 +30,8 @@ const ImageMaskQuote = () => {
                 Get an Instant Quote
               </header>
               <div className="block text-gray-600 text-xs mb-3 mt-2 ">
-                So, What Are You Waiting For? Dial our number or reach out to us
-                through live chat now to get an
+                So, What Are You Waiting For? Dial our phone number or reach out
+                to us through live chat now to get an
                 <span className="text-blue-600 font-sans font-medium">
                   {" "}
                   instant quote{" "}

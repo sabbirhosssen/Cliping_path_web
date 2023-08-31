@@ -1,8 +1,5 @@
-// import React from 'react';
-
+import list_icon from "./../../../Images/ServiceImage/Global/List-icon.png";
 const ImageMaskGet = () => {
-  const design =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/list-icon.svg";
   return (
     <div>
       <div className="md:px-32 px-12  md:py-16 py-12">
@@ -12,110 +9,62 @@ const ImageMaskGet = () => {
               className=" md:w-5/12 md:pr-4 md:text-3xl 
            text-2xl font-bold md:my-0 my-2 "
             >
-              Why You Should Get Our Invisible Mannequin Service?
+              Why You Should Get Our Service
             </header>
             <div className="md:w-7/12 my-6 md:mb-0 mb-16">
               <div className="text-xs text-gray-600">
-                Clipping Path Graphics is the best ghost mannequin service
-                provider to ensure professional and top-notch service at a low
-                price, catering to our clients’ needs. We take pride in our
-                professionalism and utmost dedication.
+                Clipping Path Graphics ensures professional and top-notch photo
+                editing at a low price, catering to our clients’ needs. We take
+                pride in our professionalism and utmost dedication.
               </div>
               <div className="underline md:font-bold font-semibold text-sm block">
-                Our service is equipped with:
+                Our best masking service is equipped with:
               </div>
             </div>
           </div>
           <div className="md:mt-16 my-5 md:grid md:grid-cols-3 md:gap-5">
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
-                <header className=" text-md">Exact Neck Part Joint</header>
+                <img src={list_icon} alt="" />
+                <header className=" text-md">Blurry Edge Fixing</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                The neck parts that have been clipped need to be appropriately
-                adjusted. Neck part joints ensure that the photo doesn’t have
-                any breaking points in a 360-degree view. We also couple it with
-                sleeves mannequin effect to prevent any shadows created in the
-                sleeves.
+                The primary purpose of image masking is to fix the blurry edges
+                so the object can be put into another background. Color
+                correction or contrast adjustment is not always adequate for
+                eCommerce images. In such cases, image masking is the only
+                effective way to prepare the pictures.
               </div>
             </div>
 
             <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
-                <header className=" text-md">Smooth Anchor Pointing</header>
+                <img src={list_icon} alt="" />
+                <header className=" text-md">No Automated Tool</header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                We connect the curve segments where it flows smoothly with a
-                smooth anchor tool. It’s essential to make your image more
-                realistic, and we ensure it by editing the photos with a smooth
-                anchor point tool.
+                Clipping Path Graphics doesn’t use any automated tools for
+                creating image masks. We’re the best image masking company that
+                relies on human touch than any software. Our designers spend a
+                long time making your pictures better. People often need objects
+                removed from photographs. If it’s a dress, tasks like masking
+                fur in Photoshop are pretty common
               </div>
             </div>
             <div className=" md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
               <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
-                <header className=" text-md">Exact Pen Tool Pointing</header>
-              </div>
-              <div className="text-xs py-3 text-gray-600">
-                The pen tool is the most powerful photo editing tool in
-                Photoshop. But, it requires extreme expertise to use this tool
-                correctly. Our efficient editors use this method to isolate the
-                object from the picture. In this method, the object you’re
-                keeping doesn’t lose much clarity or quality.
-              </div>
-            </div>
-          </div>
-          <div className="md:mt-6 md:grid md:grid-cols-3 md:gap-5">
-            <div>
-              <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
-                <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
-                  <header className=" text-md">Manual Clipping</header>
-                </div>
-                <div className="text-xs py-3 text-gray-600">
-                  Clipping Path Graphics doesn’t use any automated tools for
-                  creating the image clipping path. We’re the best Photoshop{" "}
-                  <span className="text-blue-500 font-meduiam">
-                    clipping path service provider
-                  </span>{" "}
-                  that relies on human touch than any software. Our designers
-                  spend hours to make your images better. They study the
-                  pictures first and make wise decisions based on the
-                  requirements.
-                </div>
-              </div>
-            </div>
-            <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
-              <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
-                <header className=" text-md"> Sharp Corner Edges</header>
-              </div>
-              <div className="text-xs py-3 text-gray-600">
-                For successfully adding a ghost mannequin, only isolating the
-                dress isn’t enough. You have to take care of every bit of the
-                image, and that includes the edges. If the corner edges aren’t
-                sharp enough, they won’t look realistic on a different
-                background.
-              </div>
-            </div>
-            <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
-              <div className="flex justify-start items-baseline gap-2 font-semibold">
-                <img src={design} alt="" />
+                <img src={list_icon} alt="" />
                 <header className=" text-md">
                   Fast Delivery and High Quality
                 </header>
               </div>
               <div className="text-xs py-3 text-gray-600">
-                Some companies may rely on automated tools to save time. But,
-                for consistent performance and precision in quality, you can’t
-                depend on automated tools. It takes time to deliver a task
-                maintaining efficiency and quality. But, our designers are
-                passionate about what they do, and they do it fast withholding
-                the reputation we have. So, we can provide you a fast ghost
-                mannequin service even on an urgent basis without compromising
-                the quality of work.
+                Quality work takes time. Automated tools might save you from
+                running late, but the quality won’t be consistent. Still, our
+                team of expert designers is always ready to deliver you
+                top-notch and fast product image masking service. If you need
+                something delivered urgently, we can get on that without
+                compromising the quality.
               </div>
             </div>
           </div>
@@ -123,18 +72,42 @@ const ImageMaskGet = () => {
             <div>
               <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl h-full">
                 <div className="flex justify-start items-baseline gap-2 font-semibold">
-                  <img src={design} alt="" />
-                  <header className=" text-md">
-                    Team of Professional and Expert Designers
-                  </header>
+                  <img src={list_icon} alt="" />
+                  <header className=" text-md">Studying the Images</header>
                 </div>
                 <div className="text-xs py-3 text-gray-600">
-                  Passion, dedication, professionalism are the three main
-                  components that made our designers best at their work. They
-                  are the heart of this company, and they know their work well.
-                  Our team of expert and professional designers will pay heed to
-                  your requirements and will leave no room for complaints.
+                  Our expert designers know how to make the pictures better.
+                  They conduct in-depth research on the images and make
+                  necessary changes. If an object is curves and edges in a
+                  picture are too scattered, then it is not wise to use{" "}
+                  <span className="text-blue-500 font-meduiam">
+                    image cut-out.
+                  </span>{" "}
+                  Instead, we use the clipping mask service to remove the
+                  background. Image masking has different processes, including
+                  clipping mask, layer mask, vector mask, etc. The difference
+                  between a clipping mask and a layer mask is that you edit a
+                  single layer with a layer mask and multiple layers with the
+                  clipping mask. Vector mask works with the clipping path
+                  method, where you need to clip out the preferred object with a
+                  pen tool or shape tool.
                 </div>
+              </div>
+            </div>
+            <div className="md:my-0 my-5 bg-[#f5f6fb] border border-gray-300 border-solid px-5 py-3 rounded-tr-3xl rounded-bl-3xl">
+              <div className="flex justify-start items-baseline gap-2 font-semibold">
+                <img src={list_icon} alt="" />
+                <header className=" text-md">
+                  {" "}
+                  Expert and Professional Designers
+                </header>
+              </div>
+              <div className="text-xs py-3 text-gray-600">
+                Our designers are the heart of this company. They love what they
+                do, and they do it ensuring quality. All three combined,
+                passion, dedication, and professionalism, have made our team
+                efficient to meet your needs of complex image masking in no
+                time!
               </div>
             </div>
           </div>

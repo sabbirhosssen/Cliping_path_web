@@ -1,13 +1,14 @@
-// import React from 'react';
+import logoimage from "./../../../Images/ServiceImage/Global/Global_trustpilot.png";
+import about_bg from "./../../../Images/ServiceImage/Global/about_bg.png";
+import rating from "./../../../Images/ServiceImage/Global/rating.png";
 
 const ImageMaskAboutSay = () => {
-  const starlogo =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/rating.svg";
-  const logoimage =
-    "https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/trustpilot.png";
   return (
     <div>
-      <div className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb] bg-[url('https://cdn-eahnp.nitrocdn.com/LCPkSmIYbLjSQwpkUQQjpTZTKTmMsByp/assets/images/optimized/rev-195c362/clippingpathgraphics.com/wp-content/themes/graphic-it/assets/img/map.svg')] ">
+      <div
+        className="md:px-32 px-12 md:py-16 py-16 bg-no-repeat bg-top bg-[#f5f6fb]  "
+        style={{ backgroundImage: `url(${about_bg})` }}
+      >
         <div className="hs">
           <div className="text-center my-3">
             <header className="md:text-3xl text-2xl font-bold ">
@@ -28,45 +29,41 @@ const ImageMaskAboutSay = () => {
         </div>
         <div className="my-8 md:grid md:grid-cols-3 md:gap-4">
           <div className=" border px-6 py-6 md:my-0 my-6  rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mb-3" alt="" />
+            <img src={rating} className="mb-3" alt="" />
             <div className=" text-xs text-gray-600">
-              “Ghost mannequin editing is pretty difficult. I’ve already had a
-              bad experience with another company. So I wasn’t sure whether
-              Clipping Path Graphics could do a good job or not. But, they
-              turned out to be true to their words and impressed me with amazing
-              ghost mannequin editing service.”
+              “Image masking is a pretty complicated process. I was looking for
+              a good company to edit a few hundred pictures. As I know the basic
+              of photo editing, I knew that masking so many pictures require
+              extreme efficiency. But, Clipping Path Graphics made me impressed
+              with their top-notch work and professionalism.”
             </div>
             <header className=" font-semibold text-md my-3">
-              Barbara T Moore
+              Roberto . Warriner
             </header>
           </div>
           <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mb-3" alt="" />
+            <img src={rating} className="mb-3" alt="" />
             <div className=" text-xs text-gray-600">
-              “Clipping Path Graphics has the best designers who know ghost
-              mannequin photo editing better than others. My online fashion
-              store has more customers than ever after I edited my photos by
-              Clipping Path Graphics. The ghost mannequin photography service
-              they provided made the dresses look more fashionable than ever!”
+              “The awesome team of Clipping Path Graphics always made sure that
+              my comments and feedback were implemented. They showed me the
+              tasks as they went forward and delivered what I wanted before the
+              deadline. Really happy with their service.”
             </div>
             <header className=" font-semibold text-md my-3">
-              Robert M Betz
+              Charles A Howard
             </header>
           </div>
           <div className=" border px-6 py-6 md:my-0 my-6 rounded-tr-2xl rounded-bl-2xl ">
-            <img src={starlogo} className="mt-3 mb-2" alt="" />
+            <img src={rating} className="mt-3 mb-2" alt="" />
 
             <div className=" text-xs text-gray-600">
-              “I own an online fashion store and was looking for a good company
-              for ghost mannequin photo editing service. My business was booming
-              recently, and I had to upload around 2000-2500 images per day. So,
-              I had to outsource ghost mannequin image editing services to
-              Clipping Path Graphics. They are quite efficient in on-time
-              deliveries and maintaining quality in their work. Looking forward
-              to a long-term business!”
+              “Clipping Path Graphics has an expert team of designers. It took
+              them just a few seconds to grab what I wanted. They delivered good
+              work, and the customer support team was always available. Can’t
+              think of a service provider better than them!”
             </div>
             <header className=" font-semibold text-md my-3">
-              Rosa F Peters
+              Joseph I Daigneault
             </header>
           </div>
         </div>
